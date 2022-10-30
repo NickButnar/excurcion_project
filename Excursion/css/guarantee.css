@@ -1,0 +1,36 @@
+.guarantee {
+  max-width: 1920px;
+  height: 400px;
+  align-items: center;
+}
+
+.guarantee-content {
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  width: 1870px;
+  max-height: 400px;
+  margin: 117px 15px;
+}
+
+.guarantee-content-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 102.87px;
+  align-items: center;
+  color: #fff;
+  height: 219px;
+  margin-top: 91px;
+}
+
+.guarantee-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(60%);
+}

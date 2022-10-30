@@ -1,0 +1,13 @@
+@import url(./reset.css);
+@import url(./../css/fonts/stylesheet.css);
+
+.body {
+  margin: 0 auto;
+  font-family: "Inter", serif;
+  background-color: #ffff;
+}
+
+.container {
+  width: 1920px;
+  margin: 0 15px;
+}
