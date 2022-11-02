@@ -1,0 +1,66 @@
+#all_exc {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+}
+
+/* Exc #1 */
+.excurcion__1 {
+  text-align: right;
+  align-items: flex-end;
+  max-width: 50%;
+  max-height: 660px;
+  position: relative;
+  color: #ffff;
+}
+
+.excurcion__1__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.25;
+  text-align: center;
+  padding-top: 80px;
+}
+
+/* excurcion__1__disc   --->  без float: right; не получилось разместить текст согласно макету */
+
+.excurcion__1__disc {
+  float: right;
+  font-size: 48px;
+  line-height: 1.2;
+  margin-top: 90px;
+  margin-right: 90px;
+  max-width: 700px;
+}
+
+.excurcion__1__img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(60%);
+}
+
+.excurcion__1__link__popup__1 {
+  display: inline-block;
+  position: relative;
+  font-size: 40px;
+  line-height: 1.2;
+  background-color: #a2abb5;
+  border-radius: 35px;
+  padding: 10px 80px 10px 30px;
+  margin: 130px 90px 80px 0;
+}
+
+.excurcion__1__link__popup__1 a {
+  color: #000000;
+}
+
+.arrow__right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 14px;
+}
