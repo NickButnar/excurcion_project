@@ -1,12 +1,14 @@
 .footer {
-  margin-top: 100px;
+  margin: 80px;
 }
+
 .footer__nav {
   display: flex;
   justify-content: center;
   flex-direction: row;
   column-gap: 180px;
 }
+
 .footer__order {
   margin: 0 auto;
   margin-top: 100px;

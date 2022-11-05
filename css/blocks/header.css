@@ -1,21 +1,16 @@
+.header {
+  margin: 80px;
+}
+
 .header__nav {
   display: flex;
   justify-content: flex-end;
-  padding: 50px 140px 50px 20px;
   column-gap: 23px;
   font-weight: 400;
   font-size: 32px;
   line-height: 1.25;
-  /* background-color: grey; */
 }
-.header__nav a {
+.header__link {
   color: #000;
   border-bottom: 2px solid #bbb4b4;
-}
-
-@media (max-width: 670px) {
-  .header__nav {
-    display: block;
-    max-width: 640px;
-  }
 }

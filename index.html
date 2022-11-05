@@ -10,15 +10,15 @@
   <body>
     <div class="wrapper">
       <header class="header">
-        <nav class="header__nav">
-          <li><a href="#!">главная</a></li>
-          <li><a href="#!">экскурсии</a></li>
-          <li><a href="#!">контакты</a></li>
-        </nav>
+        <ul class="header__nav">
+          <li><a class="header__link" href="#!">главная</a></li>
+          <li><a class="header__link" href="#!">экскурсии</a></li>
+          <li><a class="header__link" href="#!">контакты</a></li>
+        </ul>
       </header>
       <div class="hero">
         <h1 class="hero__title">Экскурсии по&nbsp;Батуми и&nbsp;Аджарии</h1>
-        <p class="hero__disc">
+        <p class="hero__desc">
           Частные экскурсии с&nbsp;индивидуальным подходом
         </p>
       </div>
@@ -30,100 +30,88 @@
           </div>
           <div class="biography__content">
             <h2 class="biography__title">Меня зовут Александр&nbsp;Бутнарь</h2>
-            <p class="biography__disc">
+            <p class="biography__desc">
               Родился и&nbsp;вырос в&nbsp;Батуми, Грузия. Занимаюсь экскурсиями
               уже много лет. С&nbsp;удовольствием расскажу вам историю, мифы
               и&nbsp;легенды Аджарии.
             </p>
           </div>
         </section>
-        <section class="guarantee">
-          <h3 class="guarantee__title">
-            Я&nbsp;ГАРАНТИРУЮ ВАМ НЕЗАБЫВАЕМЫЕ ВПЕЧАТЛЕНИЯ!
-          </h3>
+
+        <section class="list">
+          <h3 class="list_excursions">Список экскурсий:</h3>
         </section>
-        <section class="excurcions">
-          <div class="excurcions__column">
-            <div class="content-excurcions">
-              <h4 class="content-excurcions__title">
-                Морская прогулка на&nbsp;яхте
-              </h4>
-              <p class="content-excurcions__disc">
+
+        <section class="excursion">
+          <div class="column">
+            <div class="column__content">
+              <h4 class="column__title">Морская прогулка на&nbsp;яхте</h4>
+              <p class="column__desc">
                 Совершим романтическую прогулку под&nbsp;парусом
               </p>
               <img
                 src="/img/excurcions/boat_trip.png"
                 alt="batumi boat trip"
-                class="content-excurcions__img"
+                class="column__img"
               />
-              <div class="content-excurcions__footer">
-                <p class="content-excurcions__price">100$</p>
-                <a href="#" class="content-excurcions__link">Подробнее</a>
-              </div>
+            </div>
+            <div class="column__footer">
+              <p class="column__price">100$</p>
+              <a href="#" class="column__link">Подробнее</a>
             </div>
           </div>
-
-          <div class="excurcions__column">
-            <div class="content-excurcions content-excurcions_size2">
-              <h4 class="content-excurcions__title">Горная Аджария</h4>
-              <p class="content-excurcions__disc">
-                Увидим величественную горную Аджарию
-              </p>
+          <div class="column">
+            <div class="column__content">
+              <h4 class="column__title">Горная Аджария</h4>
+              <p class="column__desc">Увидим величественную горную Аджарию</p>
               <img
                 src="/img/excurcions/adjaria.png"
                 alt="adjaria"
-                class="content-excurcions__img"
+                class="column__img"
               />
-              <div class="content-excurcions__footer">
-                <p class="content-excurcions__price">100$</p>
-                <a href="#" class="content-excurcions__link">Подробнее</a>
-              </div>
+            </div>
+            <div class="column__footer">
+              <p class="column__price">100$</p>
+              <a href="#" class="column__link">Подробнее</a>
             </div>
           </div>
-          <div class="excurcions__column">
-            <div class="content-excurcions">
-              <h4 class="content-excurcions__title">
-                Батуми в&nbsp;дождливый день
-              </h4>
-              <p
-                class="content-excurcions__disc content-excurcions__disc--margin3"
-              >
+          <div class="column">
+            <div class="column__content">
+              <h4 class="column__title">Батуми в&nbsp;дождливый день</h4>
+              <p class="column__desc">
                 Знаменитые места Батуми, его история, мифы и&nbsp;легенды
               </p>
               <img
                 src="/img/excurcions/rainy-day.png"
                 alt="batumi rainy day"
-                class="content-excurcions__img"
+                class="column__img"
               />
-              <div
-                class="content-excurcions__footer content-excurcions__footer--margin3"
-              >
-                <p class="content-excurcions__price">80$</p>
-                <a href="#" class="content-excurcions__link">Подробнее</a>
-              </div>
+            </div>
+            <div class="column__footer">
+              <p class="column__price">80$</p>
+              <a href="#" class="column__link">Подробнее</a>
             </div>
           </div>
-          <div class="excurcions__column">
-            <div class="content-excurcions">
-              <h4 class="content-excurcions__title">
-                Национальный парк Мтирала
-              </h4>
-              <p
-                class="content-excurcions__disc content-excurcions__disc--margin4"
-              >
-                Неповторимая красота природы Грузии
-              </p>
+          <div class="column">
+            <div class="column__content">
+              <h4 class="column__title">Национальный парк Мтирала</h4>
+              <p class="column__desc">Неповторимая красота природы Грузии</p>
               <img
                 src="/img/excurcions/mtirala.png"
-                alt="mtirala national park"
-                class="content-excurcions__img"
+                alt="national park mtirala"
+                class="column__img"
               />
-              <div class="content-excurcions__footer">
-                <p class="content-excurcions__price">150$</p>
-                <a href="#" class="content-excurcions__link">Подробнее</a>
-              </div>
+            </div>
+            <div class="column__footer">
+              <p class="column__price">150$</p>
+              <a href="#" class="column__link">Подробнее</a>
             </div>
           </div>
+        </section>
+        <section class="guarantee">
+          <h5 class="guarantee__title">
+            Я&nbsp;ГАРАНТИРУЮ ВАМ НЕЗАБЫВАЕМЫЕ ВПЕЧАТЛЕНИЯ!
+          </h5>
         </section>
 
         <section class="footer">
@@ -143,60 +131,6 @@
           </div>
         </section>
       </main>
-
-      <!-- <section id="popup_1" class="popup_1-excurtions">
-        <div class="container">
-          <div class="popup_1">
-            <div class="popup_1-row">
-              <div class="popup_1-img">
-                <img src="./img/popup/main_1.png" alt="boat" />
-              </div>
-              <div class="popup_1-content">
-                <div class="popup_1-text">
-                  <p>
-                    С&nbsp;борта яхты вы&nbsp;увидите красивейшую панораму
-                    города. Получите незабываемые впечатления, купаясь
-                    в&nbsp;чистейшей воде вдали от берега, ощущая под собой
-                    морскую бездну. Только&nbsp;вы, безбрежное синее море, шум
-                    рассекаемых волн и&nbsp;белоснежный парус!
-                  </p>
-                </div>
-                <a href="#all_exc" class="popup_1-close">X</a>
-                <div class="popup_1-footer">
-                  <div class="popup_1-footer-row">
-                    <div class="popup_1-left-block">
-                      <li>
-                        <img
-                          src="./img/popup/icon-people.svg"
-                          alt="people"
-                        />1-6 человек
-                      </li>
-                      <li>
-                        <img src="./img/popup/icon-watch.svg" alt="watch" />1
-                        час
-                      </li>
-                      <li>
-                        <img
-                          src="./img/popup/icon-balloon.svg"
-                          alt="balloon"
-                        />Рыбалка
-                      </li>
-                    </div>
-                    <div class="popup_1-right-block">
-                      <div class="popup_1-right-block-text">
-                        <p>Еда и&nbsp;напитки включены в&nbsp;стоимость</p>
-                      </div>
-                      <div class="popup_1-right-block-price">
-                        <p>100$</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
     </div>
   </body>
 </html>
