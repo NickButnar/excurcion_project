@@ -4,3 +4,9 @@
   flex-wrap: wrap;
   color: #fff;
 }
+
+@media (max-width: 500px) {
+  .excursion {
+    display: block;
+  }
+}
